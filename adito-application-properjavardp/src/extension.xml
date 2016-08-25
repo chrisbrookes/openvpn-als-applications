@@ -66,6 +66,12 @@
 				<if jre="1.6">
 					<jar>properJavaRDP14-1.1.jar</jar>
 				</if>
+                <if jre="1.7">
+                    <jar>properJavaRDP14-1.1.jar</jar>
+                </if>
+                <if jre="1.8">
+                    <jar>properJavaRDP14-1.1.jar</jar>
+                </if>
 			</classpath>
 			
 			<main class="net.propero.rdp.Rdesktop">
